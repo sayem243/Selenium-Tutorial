@@ -1,0 +1,13 @@
+# Ignore all common image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.webp
+*.svg
+
+# Ignore the '\Screenshot' folder
+Screenshot
