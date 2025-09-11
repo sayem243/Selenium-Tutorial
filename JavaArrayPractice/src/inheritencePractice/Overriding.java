@@ -1,0 +1,43 @@
+package inheritencePractice;
+
+
+class Bank{
+	
+	double roi() {
+		
+		return 0;
+	}
+}
+
+class UCB extends Bank{
+	
+	double roi() {
+		return 9.0;
+	}
+	
+}
+
+
+
+class SBL extends Bank{
+	
+	double roi() {
+		return 9.5;
+	}
+	
+}
+
+
+
+public class Overriding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		UCB ucbObj= new UCB();
+		System.out.println(ucbObj.roi());
+		
+
+	}
+
+}

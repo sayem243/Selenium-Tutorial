@@ -1,0 +1,30 @@
+package oop;
+
+//Cat class implements the Animal interface
+class Cat implements Animal {
+ // Provide implementation for the makeSound method
+ @Override
+ public void makesound() {
+     System.out.println("The cat meows");
+ }
+}
+
+
+
+class AnimalClass implements Animal{
+
+	public void makesound() {
+		 System.out.println("The dog barks");
+	}
+	
+	
+public static void main(String[] args) {
+	AnimalClass obj = new AnimalClass();
+	Cat cat = new Cat();
+	obj.makesound();
+	cat.makesound();
+	}
+	
+}
+
+

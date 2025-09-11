@@ -1,0 +1,47 @@
+package mouseAction;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class DoubleClick {
+	
+	
+	public static void main(String[] args) {
+	
+	WebDriver driver= new ChromeDriver();
+	driver.manage().window().maximize();
+	driver.get("https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_ondblclick3");
+	
+	//switch to frame
+	driver.switchTo().frame("iframeResult");
+	
+	
+	WebElement box1=driver.findElement(By.xpath("//input[@id=\"field1\"]"));
+	WebElement box2=driver.findElement(By.xpath("//input[@id=\"field2\"]"));
+	WebElement copyButton=driver.findElement(By.xpath("//button[normalize-space()=\"Copy Text\"]"));
+	//clear text
+	box1.clear();
+	box1.sendKeys("Welcome");
+	
+	Actions act= new Actions(driver);
+	act.doubleClick(copyButton).perform();
+
+	//validation: box2 should contains "Welcome"
+	
+	box2.getAttribute("value")
+	if( box2.getText().equals("Welcome")) {
+		System.out.print("True");
+	}
+	else {
+		System.out.print("text not copied properly");
+	}
+	
+	
+	
+	
+	
+	}
+}

@@ -1,0 +1,27 @@
+package inheritencePractice;
+
+
+class Parent{
+	void ParentClassDisplay(int a) {
+		System.out.println("Here is the valu: "+ a);
+	}
+	
+}
+
+
+class child1 extends Parent() {
+	
+}
+
+
+
+
+
+public class HeirArchy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package inheritencePractice;
+
+
+class parent(int a) {
+	System.out.println("Here is the valu: "+a);
+}
+
+
+
+
+
+
+
+public class HeirArchy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

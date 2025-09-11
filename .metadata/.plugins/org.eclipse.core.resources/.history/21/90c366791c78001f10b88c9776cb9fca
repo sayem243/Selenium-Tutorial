@@ -1,0 +1,30 @@
+package inheritencePractice;
+
+
+
+class A {
+	int a;
+	void display(){
+		System.out.println("Display"+a);
+	}
+}
+
+
+class B extends A {
+	int c;
+	void display(){
+		System.out.println("show the value"+c);
+	}
+}
+
+
+
+
+class InheritenceType {
+	
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

@@ -1,0 +1,25 @@
+package inheritencePractice;
+
+
+
+class A {
+	int a;
+	display(){
+		System.out.println("Display"+a);
+	}
+}
+
+
+
+
+
+
+
+class InheritenceType {
+	
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

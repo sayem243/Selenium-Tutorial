@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;wait.sleepCommand&apos; to &apos;SleepCommand&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumWebdriver&apos;&#x0D;&#x0A;- Original element: &apos;wait.sleepCommand&apos;&#x0D;&#x0A;- Renamed element: &apos;wait.SleepCommand&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;sleepCommand&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;wait{sleepCommand.java[sleepCommand" matchStrategy="1" name="SleepCommand" qualified="false" references="true" similarDeclarations="false" stamp="1740945816234" textual="false" version="1.0"/>
+</session>

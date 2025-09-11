@@ -1,0 +1,39 @@
+package datepicker;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DatePickerDemo1 {
+
+	public static void main(String[] args) {
+		WebDriver driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		driver.get("https://jqueryui.com/datepicker/");
+		driver.manage().window().maximize();
+		
+		//switch to frame
+		driver.switchTo().frame(0);
+		
+		//Metho1: using sendkey()
+		driver.findElement(By.xpath("//input[@id=\"datepicker\"]")).sendKeys("07/04/2025");
+		
+		//Metho 2: using datepicker
+		String year="2025";
+		String month= "April";
+		String date= "05";
+		driver.findElement(By.xpath("//input[@id=\"datepicker\"]")).click(); //opens datepicker
+		
+		while() {
+			String currentmonth=driver.findElement(By.xpath("//span[@class=\"ui-datepicker-month\"]")).getText();
+			String year= driver.findElement(By.xpath("//span[@class=\"ui-datepicker-year\"]")).getText();
+
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package inheritencePractice;
+
+class InheritenceType {
+	
+
+	public static void main(String[] args) {
+		
+		
+	}
+}
