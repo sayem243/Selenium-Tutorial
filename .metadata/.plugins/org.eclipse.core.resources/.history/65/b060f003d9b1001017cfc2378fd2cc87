@@ -1,0 +1,12 @@
+package DataDriven;
+
+import java.io.FileInputStream;
+
+public class ReadingDataFromExecel {
+	
+	public static void main(String[] args) {
+		
+		FileInputStream file = new FileInputStream(null);
+	}
+	
+}

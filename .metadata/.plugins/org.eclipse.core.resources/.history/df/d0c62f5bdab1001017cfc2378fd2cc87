@@ -1,0 +1,14 @@
+package DataDriven;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ReadingDataFromExecel {
+	
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		FileInputStream file = new FileInputStream("G:\\QA\\Selenium Learning\\SeleniumWebdriver\\Testdata\\Book1.xlsx");
+		
+	}
+	
+}
